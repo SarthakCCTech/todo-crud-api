@@ -1,0 +1,12 @@
+
+Project todo_api {
+  database_type: 'MySQL'
+}
+
+Table todos {
+  id int [primary key, increment]
+  title varchar(255) [not null]
+  description text
+  is_completed boolean [not null, default: false]
+  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
+}
