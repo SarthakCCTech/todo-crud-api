@@ -1,32 +1,31 @@
-
 package main
 
 import "testing"
 
-func TestCreateTodo(t *testing.T) {
-    t.Skip("TODO: Test creating a todo")
+func TestCreateGoal(t *testing.T) {
+    t.Skip("TODO: Test creating a goal")
 }
 
-func TestGetAllTodos(t *testing.T) {
-    t.Skip("TODO: Test retrieving all todos")
+func TestGetAllGoals(t *testing.T) {
+    t.Skip("TODO: Test retrieving all goals")
 }
 
-func TestGetTodoByID(t *testing.T) {
-    t.Skip("TODO: Test retrieving a todo by ID")
+func TestGetGoalByID(t *testing.T) {
+    t.Skip("TODO: Test retrieving a goal by ID")
 }
 
-func TestUpdateTodo(t *testing.T) {
-    t.Skip("TODO: Test updating a todo")
+func TestUpdateGoal(t *testing.T) {
+    t.Skip("TODO: Test updating a goal")
 }
 
-func TestDeleteTodo(t *testing.T) {
-    t.Skip("TODO: Test deleting a todo")
+func TestDeleteGoal(t *testing.T) {
+    t.Skip("TODO: Test deleting a goal")
 }
 
-func TestTodoNotFound(t *testing.T) {
-    t.Skip("TODO: Test a nonexistent todo ID")
+func TestGoalNotFound(t *testing.T) {
+    t.Skip("TODO: Test a nonexistent goal ID")
 }
 
-func TestCreateTodoWithEmptyTitle(t *testing.T) {
+func TestCreateGoalWithEmptyTitle(t *testing.T) {
     t.Skip("TODO: Test validation for an empty title")
 }

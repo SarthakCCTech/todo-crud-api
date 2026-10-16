@@ -1,41 +1,41 @@
+# Goals Todo API - User Stories
 
-# Todo API - User Stories
-
-## US-01: Create Todo
-As a user, I want to create a todo so that I can record my tasks.
+## US-01: Create Goal
+As a user, I want to create a goal so that I can record what I want to achieve.
 
 Acceptance criteria:
-- Accept title and description.
+- Accept title, description, status, and target date.
 - Title is required.
+- Default status is `not_started`.
 - Return 201 when created.
 
-## US-02: Get All Todos
-As a user, I want to view all todos so that I can track my tasks.
+## US-02: Get All Goals
+As a user, I want to view all goals so that I can track my progress.
 
 Acceptance criteria:
-- Return all todos.
-- Return an empty list if no todos exist.
+- Return all goals.
+- Return an empty list if no goals exist.
 - Return 200 on success.
 
-## US-03: Get Todo by ID
-As a user, I want to view a todo by ID so that I can see its details.
+## US-03: Get Goal by ID
+As a user, I want to view a goal by ID so that I can see its details.
 
 Acceptance criteria:
-- Return the todo if it exists.
+- Return the goal if it exists.
 - Return 404 if it does not exist.
 
-## US-04: Update Todo
-As a user, I want to update a todo so that I can change its details.
+## US-04: Update Goal
+As a user, I want to update a goal so that I can change its details or status.
 
 Acceptance criteria:
-- Update title, description, and completion status.
+- Update title, description, status, and target date.
 - Return 200 on success.
-- Return 404 if the todo does not exist.
+- Return 404 if the goal does not exist.
 
-## US-05: Delete Todo
-As a user, I want to delete a todo so that I can remove unwanted tasks.
+## US-05: Delete Goal
+As a user, I want to delete a goal so that I can remove goals I no longer need.
 
 Acceptance criteria:
-- Delete the todo using its ID.
+- Delete the goal using its ID.
 - Return 204 on success.
-- Return 404 if the todo does not exist.
+- Return 404 if the goal does not exist.

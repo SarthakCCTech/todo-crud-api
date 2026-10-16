@@ -1,12 +1,8 @@
-
-Project todo_api {
-  database_type: 'MySQL'
-}
-
-Table todos {
-  id int [primary key, increment]
-  title varchar(255) [not null]
+Table goals {
+  id integer [primary key, increment]
+  title varchar(150) [not null]
   description text
-  is_completed boolean [not null, default: false]
-  created_at timestamp [not null, default: `CURRENT_TIMESTAMP`]
+  status varchar(20) [not null, default: 'not_started']
+  target_date date
+  created_at timestamp
 }
